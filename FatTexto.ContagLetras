@@ -1,0 +1,8 @@
+frase = 'Curso em Vídeo Python'
+print(frase[:13])  #Mostrará os carácteres até o espaço de número 12.
+print(frase[3:15]) #Mostrará os carácteres de número 3 até o número 14.
+print(frase[0:15:2]) #O último número (2) refere-se a quantas casas irá pular, ou seja, pulará de 2 em 2 casas.
+
+#Para imprimir uma frase ou um texto muito grande usamios 3 aspas (""") no início e no fim.
+
+print(frase.count('o'))
